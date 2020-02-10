@@ -1,22 +1,35 @@
 {
-  "name": "jessie-wu-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jiaxinjessiewu/jessie-wu-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jiaxinjessiewu/jessie-wu-website/issues"
-  },
-  "homepage": "https://github.com/jiaxinjessiewu/jessie-wu-website#readme",
+  "name": "jessie-wu-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "create-react-app": "^3.2.0"
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.10.2",
+    "react-easy-chart": "^1.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-minimal-pie-chart": "^6.0.1",
+    "react-scripts": "3.2.0",
+    "reactstrap": "^8.0.0",
+    "jquery": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
