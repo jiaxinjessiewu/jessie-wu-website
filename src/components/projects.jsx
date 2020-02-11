@@ -1,6 +1,8 @@
 import React from "react";
 import liveChat from "../assets/live-chat.png";
 import tasks from "../assets/task-management.png";
+import wwGame from "../assets/warehouse-wars.png";
+import mmmog from "../assets/mmmog.png";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -10,41 +12,45 @@ export default class Projects extends React.Component {
       {
         id: "demo1",
         name: "Warehouse Wars",
-        img: liveChat,
+        img: wwGame,
         description:
-          "A single player game that player needs to avoid and kill all monsters.",
-        tech: ["JavaScript", "Node & Express", "SQLlite", "CSS"],
-        demo: "https://jessie-angularjs-app.herokuapp.com/",
-        github: "https://jessie-angular-livechat.firebaseapp.com/"
+          "A single player game takes place in a warehouse. " +
+          "The player can push rows of boxes, vertically, horizontally or diagonally around the warehouse to surround each monster on all sides and remove them.",
+        tech: ["JavaScript", "Node & Express", "Sqlite3", "Ajax"],
+        demo: "https://warehouse-wars-game.firebaseapp.com",
+        github: "https://github.com/jiaxinjessiewu/warehouse-wars-game"
       },
       {
         id: "demo2",
         name: "MMMOG version of Warehouse Wars",
-        img: liveChat,
+        img: mmmog,
         description:
-          "Mobile Massively Multiplayer Online Game, that users can choose single player or multiplayer mode that they need to push boxes to kill all monsters.",
+          "Mobile massively multiplayer online game, that users can choose single player or multiplayer mode to kill all monsters together. " +
+          "The worlds backend communicates with Javascript/JQuery frontend via JSON over websockets.",
         tech: ["JavaScript", "Node & Express", "MongoDB", "WebSocket"],
-        demo: "https://jessie-angular-livechat.firebaseapp.com/",
-        github: "https://jessie-angular-livechat.firebaseapp.com/"
+        demo: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars",
+        github: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars"
       },
       {
         id: "demo3",
         name: "Live Chat App",
         img: liveChat,
-        description: "A real time chat room application for multiple users",
+        description:
+          "A chat room application with authentication, using Angular 2, Bootstrap 4 and a Firebase backend. The app is managing state between multiple clients in realtime with Cloud Firestore.",
         tech: ["Angular 2 ", "Firebase", "Bootstrap 4"],
         demo: "https://jessie-angular-livechat.firebaseapp.com/",
-        github: "https://jessie-angular-livechat.firebaseapp.com/"
+        github: "https://github.com/jiaxinjessiewu/anglar-livechat-app"
       },
       {
         id: "demo4",
         name: "Task Management App",
         img: tasks,
         description:
-          "A MEAN App created for helping users track and manage their to-do tasks",
+          "A MEAN App created for helping users track and manage their to-do tasks. " +
+          "A full stack app to store tasks data, generate tasks from mongoDB, process them through express, and displaying them with angular directives, controllers, and services.",
         tech: ["AngularJS", "Node & Express", "MongoDB", "Bootstrap 4"],
         demo: "https://jessie-angularjs-app.herokuapp.com/",
-        github: "https://jessie-angular-livechat.firebaseapp.com/"
+        github: "https://github.com/jiaxinjessiewu/jessie-angularjs-app"
       }
     ];
 
