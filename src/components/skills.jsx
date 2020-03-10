@@ -19,7 +19,7 @@ export default class Skills extends React.Component {
             <div className="col-6 col-sm-4">
               <img className="skills-img" src={require("../assets/code.svg")} />
 
-              <p>Full Stack Development and RESTful Design</p>
+              <p>Front End Development and Responsive Web Design</p>
             </div>
 
             <div className="col-6 col-sm-4">
