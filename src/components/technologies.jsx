@@ -8,13 +8,13 @@ export default class Technologies extends React.Component {
     super();
     var technology_list = [
       { tech: "Angular", value: "70" },
-      { tech: "React", value: "50" },
-      { tech: "Node", value: "60" },
+      { tech: "React", value: "55" },
+      { tech: "Node", value: "65" },
       { tech: "SQL", value: "60" },
       { tech: "NoSQL", value: "50" },
       { tech: "Python", value: "60" },
       { tech: "Java", value: "50" },
-      { tech: "Git", value: "60" }
+      { tech: "Git", value: "70" }
     ];
     this.technologyList = technology_list.map((tech, i) => {
       return (

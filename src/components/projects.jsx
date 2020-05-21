@@ -3,6 +3,7 @@ import liveChat from "../assets/live-chat.png";
 import tasks from "../assets/task-management.png";
 import wwGame from "../assets/warehouse-wars.png";
 import mmmog from "../assets/mmmog.png";
+import myPhotoGallery from '../assets/my-photo-gallery.png';
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -10,27 +11,41 @@ export default class Projects extends React.Component {
     super();
     var projects = [
       {
+        id: "demo0",
+        name: "My Photo Gallery",
+        img: myPhotoGallery,
+        description:
+          "My-photo-gallery is a photo search application build with Angular framework and Flickr API, " +
+          "which also uses ngx-infinite-scroll to load more photos when the user is scrolling down. " +
+          "The app also allows users upload and store images in Firebase and " + 
+          "use Firebase Realtime Database to see the files that are uploaded in real time.",
+        tech: ["TypeScript", "JavaScript ES6s", "Flickr API", "Bootstrap 4", "SASS"],
+        demo: "https://my-photo-gallery-e66ad.web.app",
+        github: "https://github.com/jiaxinjessiewu/my-photo-gallery"
+      },
+      {
         id: "demo1",
         name: "Warehouse Wars",
         img: wwGame,
         description:
           "A single player game takes place in a warehouse. " +
-          "The player can push rows of boxes, vertically, horizontally or diagonally around the warehouse to surround each monster on all sides and remove them.",
+          "The player can push rows of boxes, vertically, horizontally or diagonally around the warehouse to surround each monster on all sides and remove them.\n" + 
+          "MMMOG version of Warehouse Wars is also available : https://github.com/jiaxinjessiewu/mmmog-warehouse-wars",
         tech: ["JavaScript", "Node & Express", "Sqlite3", "Ajax"],
         demo: "https://warehouse-wars-game.firebaseapp.com",
         github: "https://github.com/jiaxinjessiewu/warehouse-wars-game"
       },
-      {
-        id: "demo2",
-        name: "MMMOG version of Warehouse Wars",
-        img: mmmog,
-        description:
-          "Mobile massively multiplayer online game, that users can choose single player or multiplayer mode to kill all monsters together. " +
-          "The worlds backend communicates with Javascript/JQuery frontend via JSON over websockets.",
-        tech: ["JavaScript", "Node & Express", "MongoDB", "WebSocket"],
-        demo: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars",
-        github: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars"
-      },
+      // {
+      //   id: "demo2",
+      //   name: "MMMOG version of Warehouse Wars",
+      //   img: mmmog,
+      //   description:
+      //     "Mobile massively multiplayer online game, that users can choose single player or multiplayer mode to kill all monsters together. " +
+      //     "The worlds backend communicates with Javascript/JQuery frontend via JSON over websockets.",
+      //   tech: ["JavaScript", "Node & Express", "MongoDB", "WebSocket"],
+      //   demo: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars",
+      //   github: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars"
+      // },
       {
         id: "demo3",
         name: "Live Chat App",

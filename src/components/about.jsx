@@ -55,7 +55,7 @@ export default class About extends React.Component {
             </p> */}
 
             <p>
-              I'm Jessie, a front end developer with industry and startup
+              I'm Jessie, a full stack web developer with industry and startup
               experience, enjoying the creative and intuitive aspect of front
               end and the pragmatic logic of back end.
             </p>
@@ -69,10 +69,12 @@ export default class About extends React.Component {
               including Node.js, AngularJS, Angular 2+ and ReactJS.
             </p>
             <p>
-              If you want to hire me or just to talk,
+              If you want to hire me or just to talk, 
+              {" "}
               <a className="js-connect" href="#footer">
-                connect
-              </a>{" "}
+                contact
+              </a>
+              {" "}
               with me.
             </p>
           </div>

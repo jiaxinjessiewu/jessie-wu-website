@@ -1,6 +1,6 @@
 import React from "react";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
-import resume from "../assets/jiaxinwu_resume.pdf";
+import resume from "../assets/Jiaxin_Wu_resume.pdf";
 
 export default class Footer extends React.Component {
   render() {
@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
                 <td>
                   <a
                     className="px-3"
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/jiaxin-wu-17b3b815a/"
                     target="_blank"
                   >
                     <i className="fa fa-linkedin-square fa-2x icon-cog"></i>
@@ -36,7 +36,7 @@ export default class Footer extends React.Component {
                 <td>
                   <a
                     className="px-3"
-                    href="https://github.com/"
+                    href="https://github.com/jiaxinjessiewu/"
                     target="_blank"
                   >
                     <i className="fa fa-github fa-2x icon-cog"></i>
