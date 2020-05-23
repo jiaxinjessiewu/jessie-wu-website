@@ -24,6 +24,16 @@ export default class Projects extends React.Component {
         github: "https://github.com/jiaxinjessiewu/my-photo-gallery"
       },
       {
+        id: "demo3",
+        name: "Live Chat App",
+        img: liveChat,
+        description:
+          "A chat room application with authentication, using Angular 2, Bootstrap 4 and a Firebase backend. The app is managing state between multiple clients in realtime with Cloud Firestore.",
+        tech: ["Angular 2 ", "Firebase", "Bootstrap 4"],
+        demo: "https://jessie-angular-livechat.firebaseapp.com/",
+        github: "https://github.com/jiaxinjessiewu/anglar-livechat-app"
+      },
+      {
         id: "demo1",
         name: "Warehouse Wars",
         img: wwGame,
@@ -46,16 +56,6 @@ export default class Projects extends React.Component {
       //   demo: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars",
       //   github: "https://github.com/jiaxinjessiewu/mmmog-warehouse-wars"
       // },
-      {
-        id: "demo3",
-        name: "Live Chat App",
-        img: liveChat,
-        description:
-          "A chat room application with authentication, using Angular 2, Bootstrap 4 and a Firebase backend. The app is managing state between multiple clients in realtime with Cloud Firestore.",
-        tech: ["Angular 2 ", "Firebase", "Bootstrap 4"],
-        demo: "https://jessie-angular-livechat.firebaseapp.com/",
-        github: "https://github.com/jiaxinjessiewu/anglar-livechat-app"
-      },
       {
         id: "demo4",
         name: "Task Management App",

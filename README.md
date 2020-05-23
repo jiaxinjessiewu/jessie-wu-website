@@ -1,3 +1,6 @@
+This is my portfolio website, which is created using React.js,HTML5 and CSS3.
+It is live at https://jessie-wu.firebaseapp.com/.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

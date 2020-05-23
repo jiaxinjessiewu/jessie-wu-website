@@ -1,7 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
-// @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
-// awesome.min.css')
 html {
   font-size: 16px;
 }
@@ -505,14 +503,10 @@ a.home-style.navbar-brand {
 }
 .waveWrapperInner {
   position: absolute;
-  // position: relative;
   width: 100%;
-
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  // top: 220%;
-  // background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
 }
 .bgTop {
   z-index: 15;
@@ -527,7 +521,6 @@ a.home-style.navbar-brand {
 }
 .wave {
   position: absolute;
-  // position: relative;
   left: 0;
   width: 200%;
   height: 100%;
